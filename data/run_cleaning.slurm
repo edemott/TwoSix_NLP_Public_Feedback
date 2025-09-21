@@ -14,6 +14,6 @@ module purge
 module load Miniforge3
 conda activate CMSE495-TwoSix
 
-cd /mnt/research/TwoSix/bhatta73/TwoSix_Spring25
+cd /mnt/research/TwoSix/$USER/TwoSix_Spring25
 
 python data/cleaning.py
