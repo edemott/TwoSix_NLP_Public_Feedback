@@ -16,7 +16,7 @@ module load Miniforge3
 conda activate CMSE495-TwoSix
 python -m spacy download en_core_web_sm
 
-cd /mnt/research/TwoSix/bhatta73/TwoSix_Spring25
+cd /mnt/research/TwoSix/$USER/TwoSix_Spring25
 
 python sbert/sbert.py
 
